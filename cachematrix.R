@@ -1,13 +1,11 @@
 ## Put comments here that give an overall description of what functions do
-
-
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
   
   #Setting Matrix
   set <- function(yy) {
     x <<- yy
-    inverse <<- NULL
+    inverse = NULL
   }
   get <- function() x
   setinv <- function(inverse) inverse <<- inverse
